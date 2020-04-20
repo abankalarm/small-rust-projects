@@ -34,3 +34,15 @@ Err(E),
 
 generic in functon 
 fn function_name<T>(variable_name: &<T>) -> T{}
+
+life time annotations fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+
+assert tests
+
+assert!(!smaller.can_hold(&larger));
+assert_eq!(4, add_two(2));
+to add custom message
+assert!(result.contains("Carol")); vs assert!(
+result.contains("Carol"),
+"Greeting did not contain name, value was `{}`", result
+);
