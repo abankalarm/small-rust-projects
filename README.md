@@ -46,3 +46,11 @@ assert!(result.contains("Carol")); vs assert!(
 result.contains("Carol"),
 "Greeting did not contain name, value was `{}`", result
 );
+
+
+Although we very rarely need to annotate types in Rust, collect is one
+function you often do need to annotate because Rust isn’t able to infer the
+kind of collection you want.
+
+the ? operator
+will return the error value from the current function for the caller to handle.
