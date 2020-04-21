@@ -58,3 +58,13 @@ kind of collection you want.
 
 the ? operator
 will return the error value from the current function for the caller to handle.
+
+
+The iterator pattern allows you to perform some task on a sequence of items
+in turn.In Rust, iterators are lazy, meaning they have no effect until you call
+methods that consume the iterator to use it up.
+let v1 = vec![1, 2, 3];
+let v1_iter = v1.iter();
+for val in v1_iter {
+println!("Got: {}", val);
+}
