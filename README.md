@@ -70,9 +70,9 @@ println!("Got: {}", val);
 }
 
 
-Box<T> for allocating values on the heap
+Box\<T\> for allocating values on the heap
 
-Rc<T> , a reference counting type that enables multiple ownership
+Rc\<T\> , a reference counting type that enables multiple ownership
     
-Ref<T> and RefMut<T> , accessed through RefCell<T> , a type that enforces the
+Ref\<T\> and RefMut\<T\> , accessed through RefCell<T> , a type that enforces the
 borrowing rules at runtime instead of compile time
