@@ -1,3 +1,7 @@
+useful links
+https://users.rust-lang.org/t/rust-mutability-moving-and-borrowing-the-straight-dope/22166
+
+
 important commands
 
 let bytes= s.as_byte
