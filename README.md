@@ -76,3 +76,7 @@ Rc\<T\> , a reference counting type that enables multiple ownership
     
 Ref\<T\> and RefMut\<T\> , accessed through RefCell<T> , a type that enforces the
 borrowing rules at runtime instead of compile time
+    
+    The std::mem::drop function is different from the drop method in the Drop
+trait. We call it by passing the value we want to force to be dropped early as
+an argument.
